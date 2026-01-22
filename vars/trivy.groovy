@@ -1,3 +1,3 @@
 def call(){
-  sh "trivy fs . -o result.json"
+  sh "trivy fs ."
 }
